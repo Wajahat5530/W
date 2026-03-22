@@ -1,0 +1,54 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sports News</title>
+    <link rel="stylesheet" href="{% static 'css/sports.css' %}?v=1">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="logo">News Portal</div>
+        <ul class="nav-links">
+            <li><a href="{% url 'home' %}">Home</a></li>
+            <li><a href="{% url 'business' %}">business</a></li>
+            <li><a href="{% url 'entertainment' %}">entertainment</a></li>
+            <li><a href="{% url 'sports' %}">sports</a></li>
+            
+        </ul>
+    </div>
+
+    <!-- Page Title -->
+    <div class="title">
+        <h1>Today's Business News</h1>
+    </div>
+
+    <!-- Cards Container -->
+    <div class="container">
+        <div class="card">
+            <img src="{% static 'images/elon.jpg' %}" alt="NBA">
+            <h3>Elon musk find the life on mar</h3>
+        </div>
+        <div class="card">
+            <img src="{% static 'images/ADANI.jpg' %}" alt="Swimming">
+            <h3>Adani Sees future in solor energry</h3>
+        </div>
+        <div class="card">
+            <img src="{% static 'images/MICROSOFT.jpg' %}" alt="Athletics">
+            <h3>Bill gates new accouncement</h3>
+        </div>
+        <div class="card">
+            <img src="{% static 'images/ambani.webp' %}" alt="Mountaineering">
+            <h3>Free internet for ...</h3>
+        </div>
+    </div>
+
+    <!-- Home Button -->
+    <div class="button-container">
+    <a href="{% url 'home' %}" class="btn">Back</a>
+    </div>
+
+</body>
+</html>

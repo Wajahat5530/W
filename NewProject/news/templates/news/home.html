@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Portal</title>
+
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+</head>
+
+<body>
+
+<!-- 🔹 MAIN CONTENT (TOP LAYER) -->
+<div class="main-content">
+
+    <center>
+        <img src="{% static 'images/hindustantimes.png' %}" width="1000">
+    </center>
+
+    <center>
+        <h1>Welcome to home page click below to see the news</h1>
+    </center>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="logo">News Portal</div>
+        <ul class="nav-links">
+            <li><a href="{% url 'home' %}">Home</a></li>
+            <li><a href="{% url 'business' %}">Business</a></li>
+            <li><a href="{% url 'entertainment' %}">Entertainment</a></li>
+            <li><a href="{% url 'sports' %}">Sports</a></li>
+        </ul>
+    </div>
+
+</div>
+
+
+<!-- 🔹 VISME FORM (BACKGROUND LAYER) -->
+<div class="visme_d"
+     data-title="Mailing List Sign Up Form"
+     data-url="33pzoqze-mailing-list-sign-up-form?fullPage=true"
+     data-domain="forms"
+     data-min-height="100vh"
+     data-form-id="170013">
+</div>
+
+<script src="https://static-bundles.visme.co/forms/vismeforms-embed.js"></script>
+
+</body>
+</html>

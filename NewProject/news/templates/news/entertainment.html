@@ -1,0 +1,55 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sports News</title>
+    <link rel="stylesheet" href="{% static 'css/sports.css' %}?v=1">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="logo">News Entertainment Portal</div>
+        <ul class="nav-links">
+            <li><a href="{% url 'home' %}">Home</a></li>
+            <li><a href="{% url 'business' %}">business</a></li>
+            <li><a href="{% url 'sports' %}">sports</a></li>
+            
+        </ul>
+    </div>
+
+    <!-- Page Title -->
+    <div class="title">
+        <h1>Today's entertainment News</h1>
+    </div>
+
+    <!-- Cards Container -->
+    <div class="container">
+        <div class="card">
+            <img src="{% static 'images/red.jpg' %}" alt="NBA">
+            <h3>Red Dead Redemption 2</h3>
+            <p>Release Date: October 26, 2018</p>
+            <p>Developer: Rockstar Games</p>
+        </div>
+        <div class="card">
+            <img src="{% static 'images/F1 BRADPT.avif' %}" alt="Swimming">
+            <h3>F1 Comming to this june</h3>
+        </div>
+        <div class="card">
+            <img src="{% static 'images/MICROSOFT.jpg' %}" alt="Athletics">
+            <h3>Bill gates new accouncement</h3>
+        </div>
+        <div class="card">
+            <img src="{% static 'images/Project-Hail-Mary-Ryan-Gosling-1280x853.webp' %}" alt="Mountaineering">
+            <h3>Project Hail Mary Ryan Gosling</h3>
+        </div>
+    </div>
+
+    <!-- Home Button -->
+    <div class="button-container">
+    <a href="{% url 'home' %}" class="btn">Back</a>
+    </div>
+
+</body>
+</html>

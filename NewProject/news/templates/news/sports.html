@@ -1,0 +1,53 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sports News</title>
+    <link rel="stylesheet" href="{% static 'css/sports.css' %}?v=1">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="logo">Sports Portal</div>
+        <ul class="nav-links">
+            <li><a href="{% url 'home' %}">Home</a></li>
+            <li><a href="{% url 'business' %}">business</a></li>
+            <li><a href="{% url 'entertainment' %}">entertainment</a></li>
+            
+        </ul>
+    </div>
+
+    <!-- Page Title -->
+    <div class="title">
+        <h1>Today's Sports News</h1>
+    </div>
+
+    <!-- Cards Container -->
+    <div class="container">
+        <div class="card">
+            <img src="{% static 'images/nba.jpg' %}" alt="NBA">
+            <h3>NBA News</h3>
+        </div>
+        <div class="card">
+            <img src="{% static 'images/swiming.jpg' %}" alt="Swimming">
+            <h3>Swimming Updates</h3>
+        </div>
+        <div class="card">
+            <img src="{% static 'images/ATHELETICS.webp' %}" alt="Athletics">
+            <h3>Athletics Highlights</h3>
+        </div>
+        <div class="card">
+            <img src="{% static 'images/mountaining.jpg' %}" alt="Mountaineering">
+            <h3>Mountaineering News</h3>
+        </div>
+    </div>
+
+    <!-- Home Button -->
+    <div class="button-container">
+    <a href="{% url 'home' %}" class="btn">Home</a>
+    </div>
+
+</body>
+</html>
