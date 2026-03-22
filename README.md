@@ -1,15 +1,46 @@
-<h1 align="center">Hi 👋, I'm Wajahat Ali from India</h1>
-<h3 align="center">A passionate Python Full Stack Developer</h3>
+<h1 align="center">Hi 👋, I'm Wajahat Ali</h1>
+<h3 align="center">Python Full Stack Developer | Django | React | AI Enthusiast</h3>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=wajahat5530" alt="wajahat5530" /></a> </p>
+<p align="center">
+  <i>Crafting scalable web applications with clean design and intelligent systems.</i>
+</p>
 
-- 🔭 I’m currently working on **NLP,CV**
+---
 
-- 🌱 I’m currently learning **Computer Visioning, NLP**
+## 🚀 About Me
 
-- 💬 Ask me about **React,JS,Pytho,DSA**
+- 🔭 Currently working on **Natural Language Processing (NLP)** & **Computer Vision (CV)**
+- 🌱 Learning and exploring **AI, Machine Learning, and Advanced Django**
+- 💬 Skilled in **Python, Django, React, JavaScript, Data Structures & Algorithms**
+- ⚡ Passionate about building **real-world impactful applications**
 
-- 📫 How to reach me **wali57514@gmail.com**
+---
+
+## 🎥 Demo Video
+
+[▶️ Watch Project Demo](screenshots/Demo.mp4)
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** HTML, CSS, JavaScript, React  
+- **Backend:** Python, Django  
+- **Database:** SQLite  
+- **Tools:** Git, GitHub  
+
+---
+
+## 📫 Contact Me
+
+- 📧 Email: **wali57514@gmail.com**  
+- 📱 Phone: **+91 9451546096**
+
+---
+
+<p align="center">
+  ⭐ <i>If you like this project, consider giving it a star!</i>
+</p>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
