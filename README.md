@@ -16,9 +16,19 @@
 
 ---
 
+
 ## 🎥 Demo Video
 
 [▶️ Watch Project Demo](screenshots/Demo.mp4)
+
+---
+
+## 📸 Screenshots
+
+![Home Page](screenshots/Screenshot%202026-03-23%20013023.png)
+![Sports Page](screenshots/Screenshot%202026-03-23%20013051.png)
+![Business Page](screenshots/Screenshot%202026-03-23%20013123.png)
+![Entertainment Page](screenshots/Screenshot%202026-03-23%20013140.png)
 
 ---
 
@@ -34,7 +44,7 @@
 ## 📫 Contact Me
 
 - 📧 Email: **wali57514@gmail.com**  
-- 📱 Phone: **+91 9451546096**
+- 📱 Phone: **+91 7755899392**
 
 ---
 
